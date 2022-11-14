@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val btniniciar = this.findViewById<Button>(R.id.btniniciar)
         btniniciar.setOnClickListener {
-            val intent = Intent(this, iniciosesion::class.java)
+            val intent = Intent(this, inicioses::class.java)
             //Start you next activity
             startActivity(intent)}
     }

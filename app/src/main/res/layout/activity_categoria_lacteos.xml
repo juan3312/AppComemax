@@ -89,18 +89,25 @@
 
     <ImageView
         android:id="@+id/imageView51"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="163dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224"
         app:srcCompat="@drawable/line_12" />
 
     <ImageView
         android:id="@+id/imageView52"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="195dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
         app:srcCompat="@drawable/line_12" />
 
     <TextView
@@ -268,7 +275,11 @@
         android:id="@+id/imageView105"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/popular_lacteos"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275"
+        app:srcCompat="@drawable/popular_lacteos" />
 </androidx.constraintlayout.widget.ConstraintLayout>

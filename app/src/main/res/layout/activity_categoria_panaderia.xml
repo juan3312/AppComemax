@@ -88,7 +88,6 @@
         app:srcCompat="@android:drawable/ic_menu_search" />
 
     <TextView
-        android:id="textView49"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Despensa"
@@ -101,7 +100,6 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Panaderia"
@@ -114,7 +112,6 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="textView51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Carnicos"
@@ -127,7 +124,6 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enlatados"
@@ -140,7 +136,6 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="textView53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lacteos"
@@ -153,7 +148,6 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <ImageView
-        android:id="imageView101"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -165,7 +159,6 @@
         app:srcCompat="@drawable/group_88__5_" />
 
     <ImageView
-        android:id="imageView110"
         android:layout_width="140dp"
         android:layout_height="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -180,7 +173,11 @@
         android:id="@+id/imageView113"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/popular_panaderia"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        app:srcCompat="@drawable/popular_panaderia" />
 </androidx.constraintlayout.widget.ConstraintLayout>
