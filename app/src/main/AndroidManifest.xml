@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AppComemax"
         tools:targetApi="31">
         <activity
+            android:name=".iniciarsesion"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".joinsesion"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".iniciosesion"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".tracking"
             android:exported="false">
             <meta-data
@@ -104,35 +125,35 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".categoriaLacteos"
+            android:name=".CategoriaLacteos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".categoriaEnlatados"
+            android:name=".CategoriaEnlatados"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".categoriaCarnicos"
+            android:name=".CategoriaCarnicos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ayuda"
+            android:name=".Ayuda"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".categoriaPanaderia"
+            android:name=".CategoriaPanaderia"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -140,20 +161,6 @@
         </activity>
         <activity
             android:name=".registrarse"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".registrase"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".iniciosesion"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

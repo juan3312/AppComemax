@@ -3,9 +3,9 @@ package com.example.appcomemax
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class categoriaCarnicos : AppCompatActivity() {
+class CategoriaPanaderia : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_categoria_carnicos)
+        setContentView(R.layout.activity_categoria_panaderia)
     }
 }

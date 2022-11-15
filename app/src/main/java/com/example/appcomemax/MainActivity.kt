@@ -10,10 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btniniciar = this.findViewById<Button>(R.id.btniniciar)
-        btniniciar.setOnClickListener {
-            val intent = Intent(this, inicioses::class.java)
+        val btniniciarsesion = this.findViewById<Button>(R.id.btniniciarsesion)
+        btniniciarsesion.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             //Start you next activity
             startActivity(intent)}
+        }
     }
-}

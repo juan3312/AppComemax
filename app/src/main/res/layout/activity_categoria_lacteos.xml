@@ -37,7 +37,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/rectangle_29" />
+        app:srcCompat="@drawable/rectangle_29"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView42"
@@ -49,7 +50,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts" />
+        app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView44"
@@ -61,7 +63,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.151"
-        app:srcCompat="@drawable/group_88__6_" />
+        app:srcCompat="@drawable/group_88__6_"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView46"
@@ -73,7 +76,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/ofertas" />
+        app:srcCompat="@drawable/ofertas"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView50"
@@ -85,7 +89,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@android:drawable/ic_menu_search" />
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView51"
@@ -197,7 +202,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.543"
-        app:srcCompat="@drawable/group_89__2_" />
+        app:srcCompat="@drawable/group_89__2_"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView64"

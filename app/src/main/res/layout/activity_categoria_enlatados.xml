@@ -37,7 +37,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/rectangle_29" />
+        app:srcCompat="@drawable/rectangle_29"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView77"
@@ -49,7 +50,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts" />
+        app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView78"
@@ -73,7 +75,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/ofertas" />
+        app:srcCompat="@drawable/ofertas"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView80"
@@ -85,7 +88,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@android:drawable/ic_menu_search" />
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView36"
@@ -201,10 +205,14 @@
 
     <ImageView
         android:id="@+id/imageView114"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/popular_enlatados"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        android:layout_width="119dp"
+        android:layout_height="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/popular_enlatados" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

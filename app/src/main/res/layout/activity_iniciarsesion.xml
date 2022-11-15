@@ -2,27 +2,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".iniciarsesion">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="189dp"
         android:layout_height="162dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/comemax_logo_removebg_preview"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="416dp"
-        android:layout_height="170dp"
+        android:layout_width="409dp"
+        android:layout_height="82dp"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/group_54"
         tools:ignore="ImageContrastCheck" />
 
@@ -47,7 +53,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
-        android:text="@string/contrase_a"
+        android:text="@string/contrasena"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -74,87 +80,104 @@
         android:text="@string/email"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.279"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/app_name"
         android:inputType="textEmailAddress"
         android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <TextView
-        android:id="@+id/btnolv"
-        android:layout_width="163dp"
-        android:layout_height="48dp"
+        android:id="@+id/btnolvidecontra"
+        android:layout_width="146dp"
+        android:layout_height="19dp"
         android:clickable="true"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:onClick="olvidastecontra"
         android:text="¿Olvidaste tu Contraseña?"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        android:focusable="true" />
-
-    <TextView
-        android:id="@+id/btnrginicio"
-        android:layout_width="225dp"
-        android:layout_height="48dp"
-        android:clickable="true"
-        android:text="@string/a_n_no_tienes_cuenta_registrarse"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/btnrginicio"
+        android:layout_width="223dp"
+        android:layout_height="21dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="¿Aún no tienes cuenta? Registrarse"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988"
-        android:focusable="true" />
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
         android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolv"
-        app:srcCompat="@drawable/group_59"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group_59" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="184dp"
         android:layout_marginTop="10dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolv"
-        app:srcCompat="@drawable/group_58"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group_58" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="248dp"
         android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolv"
+        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/group_55"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="TODO" />
+        tools:ignore="ImageContrastCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btniniciarsesion"
         android:layout_width="179dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -163,7 +186,6 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.0" />
