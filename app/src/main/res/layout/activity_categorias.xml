@@ -31,6 +31,19 @@
         tools:layout_editor_absoluteY="-2dp" />
 
     <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/menu_hamburguesa"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
         android:id="@+id/imageView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -94,20 +107,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.417" />
-
-    <SearchView
-        android:id="@+id/searchView2"
-        android:layout_width="54dp"
-        android:layout_height="31dp"
-        android:layout_margin="1dp"
-        android:layout_marginBottom="49dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"

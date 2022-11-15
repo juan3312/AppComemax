@@ -51,14 +51,15 @@
         android:id="@+id/textView16"
         android:layout_width="146dp"
         android:layout_height="35dp"
-        android:layout_marginTop="28dp"
         android:text="registrarse"
         android:textSize="20sp"
         app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -76,7 +77,7 @@
         tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/imageView94"
         android:layout_width="189dp"
         android:layout_height="162dp"
         android:layout_marginTop="20dp"

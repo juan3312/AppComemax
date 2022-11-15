@@ -7,10 +7,8 @@
 
     <ImageView
         android:id="@+id/imageView164"
-        tools:layout_editor_absoluteX="-53dp"
-        tools:layout_editor_absoluteY="81dp"
-        android:layout_width="464dp"
-        android:layout_height="948dp"
+        android:layout_width="411dp"
+        android:layout_height="934dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fondo" />
@@ -54,15 +52,15 @@
 
     <ImageView
         android:id="@+id/imageView168"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@android:drawable/ic_menu_search"
+        app:srcCompat="@drawable/menu_hamburguesa"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView

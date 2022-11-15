@@ -3,9 +3,9 @@ package com.example.appcomemax
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class puntos : AppCompatActivity() {
+class TiendaPuntos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_puntos)
+        setContentView(R.layout.activity_tiendapuntos)
     }
 }

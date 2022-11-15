@@ -28,30 +28,6 @@
         app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts" />
 
     <ImageView
-        android:id="@+id/imageView150"
-        android:layout_width="61dp"
-        android:layout_height="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/ofertas" />
-
-    <ImageView
-        android:id="@+id/imageView151"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@android:drawable/ic_menu_search" />
-
-    <ImageView
         android:id="@+id/imageView152"
         android:layout_width="413dp"
         android:layout_height="640dp"
@@ -87,8 +63,8 @@
 
     <ImageView
         android:id="@+id/imageView155"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="43dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"

@@ -6,6 +6,19 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/menu_hamburguesa"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
         android:id="@+id/imageView112"
         android:layout_width="425dp"
         android:layout_height="118dp"
@@ -38,18 +51,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.064"
         app:srcCompat="@drawable/ofertas" />
-
-    <ImageView
-        android:id="@+id/imageView117"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@android:drawable/ic_menu_search" />
 
     <ImageView
         android:id="@+id/imageView118"

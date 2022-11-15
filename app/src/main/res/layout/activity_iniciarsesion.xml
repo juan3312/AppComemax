@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".iniciarsesion">
+    tools:context=".IniciarSesion">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.026" />
 
     <TextView
-        android:id="@+id/btnolvidecontra"
+        android:id="@+id/btnolvide_1"
         android:layout_width="146dp"
         android:layout_height="19dp"
         android:clickable="true"
@@ -145,7 +145,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/group_59" />
 
@@ -158,7 +158,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/group_58" />
 
@@ -171,7 +171,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnolvidecontra"
+        app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/group_55"
         tools:ignore="ImageContrastCheck" />

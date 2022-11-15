@@ -13,35 +13,28 @@
         android:theme="@style/Theme.AppComemax"
         tools:targetApi="31">
         <activity
-            android:name=".iniciarsesion"
+            android:name=".Menu"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".joinsesion"
+            android:name=".IniciarSesion"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".iniciosesion"
+            android:name=".Tracking"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".tracking"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".tiendapuntos"
+            android:name=".TiendaPuntos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -55,28 +48,28 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".restaurarcontrasena"
+            android:name=".Restaurar_Contrasena"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".puntos"
+            android:name=".Puntos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".payment"
+            android:name=".Payment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".order"
+            android:name=".Order"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -90,21 +83,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".home"
+            android:name=".Home"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".envio"
+            android:name=".Envio"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".datoperfil"
+            android:name=".DatoPerfil"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -118,7 +111,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".categorias"
+            android:name=".Categorias"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -160,7 +153,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".registrarse"
+            android:name=".Registrarse"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

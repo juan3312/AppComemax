@@ -3,9 +3,9 @@ package com.example.appcomemax
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class order : AppCompatActivity() {
+class Payment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_order)
+        setContentView(R.layout.activity_payment)
     }
 }
