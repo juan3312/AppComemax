@@ -76,7 +76,7 @@
         app:srcCompat="@drawable/group_112" />
 
     <ImageView
-        android:id="@+id/imageView144"
+        android:id="@+id/imgtracking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

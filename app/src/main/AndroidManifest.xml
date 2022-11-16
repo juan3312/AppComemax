@@ -13,6 +13,13 @@
         android:theme="@style/Theme.AppComemax"
         tools:targetApi="31">
         <activity
+            android:name=".Ofertas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Menu"
             android:exported="false">
             <meta-data
@@ -41,7 +48,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".shoplist"
+            android:name=".ShopList"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

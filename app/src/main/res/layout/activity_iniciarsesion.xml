@@ -47,74 +47,52 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="204dp"
+        android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
+        android:hint="@string/Contraseña"
         android:inputType="textPassword"
-        android:text="@string/contrasena"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.054"
-        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="1dp"
-        android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/email"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.62"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/app_name"
+        android:hint="@string/Correo"
         android:inputType="textEmailAddress"
         android:textColorHint="#757575"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.026" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
 
     <TextView
         android:id="@+id/btnolvide_1"
-        android:layout_width="146dp"
-        android:layout_height="19dp"
+        android:layout_width="294dp"
+        android:layout_height="27dp"
         android:clickable="true"
         android:cursorVisible="true"
         android:focusable="true"
         android:onClick="olvidastecontra"
         android:text="¿Olvidaste tu Contraseña?"
+        android:textAlignment="center"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintVertical_bias="0.0"
@@ -122,18 +100,19 @@
 
     <TextView
         android:id="@+id/btnrginicio"
-        android:layout_width="223dp"
-        android:layout_height="21dp"
+        android:layout_width="413dp"
+        android:layout_height="32dp"
         android:clickable="true"
         android:focusable="true"
         android:text="¿Aún no tienes cuenta? Registrarse"
+        android:textAlignment="center"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.977"
+        app:layout_constraintVertical_bias="0.933"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageView
@@ -146,7 +125,7 @@
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.077"
         app:srcCompat="@drawable/group_59" />
 
     <ImageView
@@ -159,7 +138,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.077"
         app:srcCompat="@drawable/group_58" />
 
     <ImageView
@@ -167,12 +146,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnolvide_1"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.077"
         app:srcCompat="@drawable/group_55"
         tools:ignore="ImageContrastCheck" />
 

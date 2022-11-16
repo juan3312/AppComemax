@@ -29,7 +29,7 @@
         app:srcCompat="@drawable/rectangle_29" />
 
     <ImageView
-        android:id="@+id/imageView115"
+        android:id="@+id/imgtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,22 +40,26 @@
         app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/the_largest_community_of_photo_enthusiasts" />
 
-    <ImageView
-        android:id="@+id/imageView116"
-        android:layout_width="61dp"
-        android:layout_height="15dp"
+    <Button
+        android:id="@+id/btnofertas"
+        android:layout_width="130dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="OFERTAS"
+        android:textSize="10sp"
+        app:icon="@drawable/group_62"
+        app:iconSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/ofertas" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <ImageView
         android:id="@+id/imageView118"
-        android:layout_width="645dp"
-        android:layout_height="437dp"
+        android:layout_width="418dp"
+        android:layout_height="440dp"
         android:src="@drawable/group_90__2_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +68,7 @@
         app:layout_constraintVertical_bias="0.317" />
 
     <ImageView
-        android:id="@+id/imageView119"
+        android:id="@+id/imgaddcart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,4 +77,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.932"
         app:srcCompat="@drawable/group_99" />
+    <ImageView
+        android:id="@+id/btnmenu"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/menu_hamburguesa"
+        tools:ignore="ImageContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

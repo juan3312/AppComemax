@@ -94,7 +94,7 @@
         app:srcCompat="@drawable/tu_comida_m_s_cercana" />
 
     <ImageView
-        android:id="@+id/imageView188"
+        android:id="@+id/imgayuda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -8,4 +8,8 @@
     <string name="email">Email</string>
     <string name="a_n_no_tienes_cuenta_registrarse">¿¿Aún no tienes cuenta? Registrarse</string>
     <string name="contrasena">contrasena</string>
+    <string name="Email" />
+    <string name="Correo">Correo</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Contraseña">Contraseña</string>
 </resources>

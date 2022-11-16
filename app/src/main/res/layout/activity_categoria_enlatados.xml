@@ -31,11 +31,13 @@
 
     <ImageView
         android:id="@+id/imageView76"
-        android:layout_width="425dp"
-        android:layout_height="118dp"
-        android:layout_marginBottom="628dp"
+        android:layout_width="412dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="644dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rectangle_29"
         tools:ignore="ImageContrastCheck" />
@@ -65,18 +67,21 @@
         app:layout_constraintVertical_bias="0.151"
         app:srcCompat="@drawable/group_88__6_" />
 
-    <ImageView
-        android:id="@+id/imageView79"
-        android:layout_width="61dp"
-        android:layout_height="15dp"
+    <Button
+        android:id="@+id/btnofertas"
+        android:layout_width="130dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="OFERTAS"
+        android:textSize="10sp"
+        app:icon="@drawable/group_62"
+        app:iconSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/ofertas"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -92,7 +97,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/txtDespensa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Despensa"
@@ -105,7 +110,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/txtEnlatados1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enlatados"
@@ -118,7 +123,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/txtCarnicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Carnicos"
@@ -130,7 +135,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/txtLacteos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lacteos"
@@ -143,7 +148,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <TextView
-        android:id="@+id/textView48"
+        android:id="@+id/txtPanaderia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Panaderia"
@@ -180,7 +185,7 @@
         app:srcCompat="@drawable/group_89__4_" />
 
     <ImageView
-        android:id="@+id/imageView86"
+        android:id="@+id/imgaddcarrito1"
         android:layout_width="116dp"
         android:layout_height="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -192,7 +197,7 @@
         app:srcCompat="@drawable/group_99" />
 
     <ImageView
-        android:id="@+id/imageView87"
+        android:id="@+id/imgaddcarrito2"
         android:layout_width="116dp"
         android:layout_height="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
